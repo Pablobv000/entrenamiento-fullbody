@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#111827" />
+  <title>Entrenamiento Fullbody</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Mini app personal</p>
+        <h1>Entrenamiento fullbody en casa</h1>
+        <p id="todayLabel" class="today-label"></p>
+      </div>
+    </header>
+
+    <nav class="day-tabs" aria-label="Días de entrenamiento" id="dayTabs"></nav>
+
+    <main id="content" class="content"></main>
+  </div>
+
+  <div id="modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-card">
+      <button id="closeModal" class="close-btn" aria-label="Cerrar">✕</button>
+      <h3 id="modalTitle">Demo del ejercicio</h3>
+      <div id="modalBody" class="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
