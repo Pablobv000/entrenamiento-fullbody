@@ -1,4 +1,4 @@
-const CACHE_NAME = 'gym-mini-app-v1';
+const CACHE_NAME = 'gym-mini-app-v2';
 const ASSETS = ['./', './index.html', './styles.css', './data.js', './script.js', './manifest.json'];
 
 self.addEventListener('install', event => {
