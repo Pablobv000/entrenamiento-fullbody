@@ -123,7 +123,4 @@ document.addEventListener('DOMContentLoaded', () => {
   setTodayLabel();
   renderTabs();
   renderDay();
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('./sw.js').catch(() => {});
-  }
 });

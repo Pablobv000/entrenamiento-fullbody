@@ -273,6 +273,9 @@ h1 {
 }
 .exercise-demo.large { aspect-ratio: 4 / 3; max-height: 70vh; object-fit: contain; }
 .large-demo { margin-bottom: 14px; }
+
+/* FIX: el modal debe quedar oculto mientras tenga la clase hidden.
+   Esta regla va al final para tener prioridad sobre .modal { display: grid; }. */
 .modal.hidden {
   display: none !important;
 }
